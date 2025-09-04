@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhiraj Joshi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="./images/logo.png" alt="DJ Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="toggle-switch">
+      <label class="switch">
+        <input type="checkbox" disabled />
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+
+  <section id="home" class="home">
+    <div class="content">
+      <h1>Hello, I'm <span>Dhiraj Joshi</span></h1>
+      <p>Full Stack Developer passionate about building modern, responsive web applications.</p>
+      <div class="social-icons">
+        <a href="#"><img src="./icons/github-brands.svg" alt="GitHub" /></a>
+        <a href="#"><img src="./icons/linkedin-brands.svg" alt="LinkedIn" /></a>
+        <a href="#"><img src="./icons/instagram-brands.svg" alt="Instagram" /></a>
+        <a href="#"><img src="./icons/facebook-brands.svg" alt="Facebook" /></a>
+      </div>
+      <a href="./Resume/dhraj resume.pdf" class="btn">Download Resume</a>
+    </div>
+    <div class="profile-img">
+      <img src="./images/mandir.jpg" alt="Dhiraj Joshi" />
+    </div>
+  </section>
+
+  <section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <img src="./images/zoo.jpg" alt="About Image" />
+    <div class="about-text">
+      <p>
+        I'm a passionate web developer with experience in both front-end and back-end technologies.
+        I enjoy crafting clean and responsive user interfaces.
+      </p>
+
+      <input type="checkbox" id="read-toggle" hidden />
+      <div class="read-more">
+        <p>
+          I specialize in HTML, CSS, JavaScript, and frameworks like React. On the backend, I work with Django and Node.js.
+          I love turning ideas into real-world applications and continuously learning new tech.
+        </p>
+      </div>
+
+      <label for="read-toggle" class="btn">Read More</label>
+    </div>
+  </div>
+</section>
+
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div><label>HTML</label><progress value="90" max="100"></progress></div>
+      <div><label>CSS</label><progress value="85" max="100"></progress></div>
+      <div><label>JavaScript</label><progress value="80" max="100"></progress></div>
+      <div><label>React</label><progress value="75" max="100"></progress></div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="card">
+      <h3>Full Stack Development</h3>
+      <p>Internshala - Graphic Era Hill University</p>
+      <a href="./certificate/Certificate.jpg" target="_blank" class="btn">View Certificate</a>
+    </div>
+    <div class="card">
+      <h3>Full Stack Development</h3>
+      <p>Internshala - Graphic Era Hill University</p>
+      <a href="./certificate/intern-certificate.jpg" target="_blank" class="btn">View Certificate</a>
+    </div>
+    <div class="card">
+      <h3>Full Stack Development</h3>
+      <p>Internshala - Graphic Era Hill University</p>
+      <a href="./certificate/Internsala.jpg" target="_blank" class="btn">View Certificate</a>
+    </div>
+
+  </section>
+
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <img src="./images/pro-img1.jpg" alt="Portfolio Website" />
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio site built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="card">
+      <img src="./images/pro-img2.jpg" alt="Landing Page" />
+      <h3>Landing Page</h3>
+      <p>Responsive landing page for a fictional app or product.</p>
+    </div>
+    <div class="card">
+      <img src="./images/pro-6.jpg" alt="To-Do App" />
+      <h3>To-Do App</h3>
+      <p>Interactive task manager built using JavaScript.</p>
+    </div>
+    <div class="card">
+      <img src="./images/pro-3.jpg" alt="Blog" />
+      <h3>Blog Template</h3>
+      <p>A multi-page blog layout design with article cards and responsive sidebar.</p>
+    </div>
+    <div class="card">
+      <img src="./images/pro-4.jpg" alt="Calculator App" />
+      <h3>Calculator App</h3>
+      <p> simple calculator built using JavaScript for arithmetic operations.</p>
+    </div>
+    <div class="card">
+      <img src="./images/pro-5.jpg" alt="E-Commerce" />
+      <h3>E-Commerce Website</h3>
+      <p>An online store layout showing products, categories, and filters.</p>
+    </div>
+    <div class="card">
+      <img src="./images/pro-6.jpg" alt="Login & Signup Form" />
+      <h3>Login & Signup Form (UI only)</h3>
+      <p>Stylish and responsive user login and signup form with validation.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2 id="con">Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+</section>
+
+  <footer>
+    <div class="footer-btns">
+      <a href="tel:+91 7906410954" class="btn">Call</a>
+      <a href="mailto:dhirajjoshi4580@email.com" class="btn">Email</a>
+    </div>
+    <p>© 2025 Dhiraj Joshi</p>
+
+  </footer>
+
+</body>
+</html>
